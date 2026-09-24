@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 df = pd.read_csv('https://archive.ics.uci.edu/ml/'\
                   'machine-learning-databases/iris/iris.data', header=None, encoding='utf-8')
 
+df.to_csv('iris.csv', index=False)
 print(df.head(5))
 print(df.info())
 print(df.describe())
