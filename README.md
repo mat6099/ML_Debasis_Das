@@ -36,7 +36,7 @@ The book has **19 chapters** and can be seen in two parts:
 
 ## Tools and Libraries Used
 
-- **Python 3**
+- **Python**
 - **NumPy**, **pandas**, **Matplotlib** — data handling and plotting
 - **scikit-learn** — classic ML algorithms
 - **PyTorch**, **PyTorch Lightning**, **PyTorch Geometric** — deep learning
