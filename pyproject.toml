@@ -46,5 +46,10 @@ members = [
     "Machine-Learning-PhD",
 ]
 
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
+
 [tool.uv]
 package = false
