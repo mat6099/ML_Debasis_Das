@@ -41,15 +41,13 @@ machine-learning = "machine_learning:main"
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
 
+[tool.uv]
+package = false
+
 [tool.uv.workspace]
-members = [
-    "Machine-Learning-PhD",
-]
 
 [dependency-groups]
 dev = [
     "ipykernel>=7.4.0",
 ]
 
-[tool.uv]
-package = false
